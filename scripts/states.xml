@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<STATES>
+  <MENU>
+    <TEXTURES>
+      <texture filename="image/start.png" ID="startbutton"/>
+      <texture filename="image/quit.png" ID="quitbutton"/>
+    </TEXTURES>
+
+    <OBJECTS>
+      <object type="Button" x="500" y="250" width="105" height="55"
+	      textureID="startbutton" numFrames="1" callbackID="0"/>
+      <object type="Button" x="500" y="320" width="105" height="55"
+	      textureID="quitbutton" numFrames="1" callbackID="0"/>
+    </OBJECTS>
+  </MENU>
+</STATES>

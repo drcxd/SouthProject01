@@ -1,0 +1,6 @@
+﻿  Game.cpp
+d:\workspace\southproject01\fairy.h(37): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+d:\workspace\southproject01\fairy.h(42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+d:\workspace\southproject01\fairy.h(44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  SouthProject01.vcxproj -> D:\Workspace\SouthProject01\Debug\SouthProject01.exe
+  SouthProject01.vcxproj -> D:\Workspace\SouthProject01\Debug\SouthProject01.pdb (Partial PDB)

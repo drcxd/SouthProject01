@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="300" tilewidth="20" tileheight="20" nextobjectid="5">
+ <properties>
+  <property name="helicopter" value="image/helicopter.png"/>
+ </properties>
+ <layer name="块层 1" width="40" height="300">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1pCaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4Aa7gAAB
+  </data>
+ </layer>
+ <objectgroup name="对象层 1" offsetx="-114" offsety="-110">
+  <object id="3" name="Obj1" type="Player" x="2" y="2" width="57" height="58">
+   <properties>
+    <property name="numFrames" type="int" value="1"/>
+    <property name="textureHeight" type="int" value="55"/>
+    <property name="textureID" value="helicopter"/>
+    <property name="textureWidth" type="int" value="105"/>
+   </properties>
+  </object>
+  <object id="4" name="Boss1" type="Boss1" x="88" y="320" width="67" height="40">
+   <properties>
+    <property name="numFrames" type="int" value="1"/>
+    <property name="textureHeight" type="int" value="51"/>
+    <property name="textureID" value="quitbutton"/>
+    <property name="textureWidth" type="int" value="101"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

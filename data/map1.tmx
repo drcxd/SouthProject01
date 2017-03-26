@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="40" height="120" tilewidth="20" tileheight="20" nextobjectid="7">
+ <properties>
+  <property name="boss1" value="image/boss1.png"/>
+  <property name="fairy" value="image/fairy.png"/>
+  <property name="player" value="image/player.png"/>
+ </properties>
+ <layer name="块层 1" width="40" height="120">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20LL6AAAAAAAAAAAAAAAAAAAAAAAADgZ0sAAAE=
+  </data>
+ </layer>
+ <objectgroup name="对象层 1">
+  <object id="1" name="Player" type="Player" x="305" y="2351" width="87" height="42">
+   <properties>
+    <property name="numFrames" type="int" value="1"/>
+    <property name="textureHeight" type="int" value="40"/>
+    <property name="textureID" value="player"/>
+    <property name="textureWidth" type="int" value="40"/>
+   </properties>
+  </object>
+  <object id="2" name="Boss1" type="Boss1" x="270" y="4" width="187" height="73">
+   <properties>
+    <property name="numFrames" type="int" value="1"/>
+    <property name="textureHeight" type="int" value="50"/>
+    <property name="textureID" value="boss1"/>
+    <property name="textureWidth" type="int" value="50"/>
+   </properties>
+  </object>
+  <object id="5" name="fairy1" type="Fairy" x="105" y="1614">
+   <properties>
+    <property name="numFrames" type="int" value="1"/>
+    <property name="textureHeight" type="int" value="40"/>
+    <property name="textureID" value="fairy"/>
+    <property name="textureWidth" type="int" value="40"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

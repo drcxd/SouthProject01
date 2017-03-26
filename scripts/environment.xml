@@ -1,0 +1,8 @@
+<ENVIROMENTS>
+  <enviroment x="200"/>
+  <enviroment y="200"/>
+  <enviroment screen_width="800"/>
+  <enviroment screen_height="600"/>
+  <enviroment fps="60"/>
+  <enviroment title="SouthProject01"/>
+</ENVIROMENTS>

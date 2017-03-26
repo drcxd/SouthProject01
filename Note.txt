@@ -1,0 +1,15 @@
+Player::ressurrect		hardcode
+Player::update			hardcode
+Player::collision		hardcode
+Player::handleInput		hardcode
+BulletHandler::updateBullets	hardcode
+Game::Game			hardcode
+
+
+地图文件包含：
+对象层，包含敌人的种类、位置信息，每一个对象还要有名称（代码内不可见，
+只为增加可读性）、类型（用于动态生成对象）、出现时的X,Y坐标、动画帧数、
+材质宽高、材质ID。
+
+地图属性，指明该地图中出现的对象所用的材质文件位置和材质ID。
+
